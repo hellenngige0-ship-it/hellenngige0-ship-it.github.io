@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hellen | Presentation Designer</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f5;
+    color: #171717;
+}
+
+.container {
+    max-width: 1050px;
+    margin: auto;
+    padding: 30px 24px 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 60px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #171717;
+    margin-left: 25px;
+}
+
+.hero {
+    padding: 70px 0 100px;
+    max-width: 850px;
+}
+
+.tag {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 1.05;
+    margin: 20px 0;
+}
+
+.hero p {
+    font-size: 21px;
+    line-height: 1.6;
+    max-width: 700px;
+    color: #555;
+}
+
+section {
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.about {
+    max-width: 750px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.project {
+    background: white;
+    padding: 35px;
+    margin: 25px 0;
+    border-radius: 18px;
+    border: 1px solid #e5e5e5;
+}
+
+.project-number {
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #777;
+}
+
+.project h3 {
+    font-size: 28px;
+    margin: 12px 0;
+}
+
+.project p {
+    color: #666;
+    line-height: 1.6;
+    max-width: 700px;
+}
+
+.project-label {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 7px 12px;
+    background: #eeeeeb;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 12px 18px;
+    border-radius: 30px;
+}
+
+.contact {
+    background: #171717;
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.contact p {
+    color: #ccc;
+    line-height: 1.7;
+}
+
+footer {
+    margin-top: 60px;
+    color: #777;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    .hero {
+        padding: 40px 0 60px;
+    }
+
+    .project {
+        padding: 25px;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<nav>
+    <div class="logo">Hellen.</div>
+
+    <div>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+    </div>
+</nav>
+
+
+<div class="hero">
+
+    <div class="tag">Presentation Designer</div>
+
+    <h1>
+        I turn ideas into clear, compelling presentations.
+    </h1>
+
+    <p>
+        I create clean, engaging presentations that combine
+        visual storytelling, thoughtful layouts and clear
+        communication.
+    </p>
+
+</div>
+
+
+<section id="about">
+
+    <h2>About me</h2>
+
+    <p class="about">
+        I'm an aspiring presentation designer with a passion for
+        visual storytelling and communication. I enjoy transforming
+        information into presentations that are simple to understand,
+        visually engaging and memorable.
+    </p>
+
+</section>
+
+
+<section id="work">
+
+    <h2>Selected work</h2>
+
+
+    <div class="project">
+
+        <div class="project-number">01 — Pitch Deck</div>
+
+        <h3>EcoRide</h3>
+
+        <p>
+            A self-initiated startup pitch deck for a fictional
+            electric mobility company. The presentation explores
+            the problem, solution, market opportunity, business
+            model and growth strategy.
+        </p>
+
+        <span class="project-label">
+            Self-initiated concept project
+        </span>
+
+    </div>
+
+
+    <div class="project">
+
+        <div class="project-number">02 — Product Presentation</div>
+
+        <h3>NOVA</h3>
+
+        <p>
+            A concept product presentation focused on visual
+            storytelling, product positioning and creating a
+            clear journey from problem to solution.
+        </p>
+
+        <span class="project-label">
+            Self-initiated concept project
+        </span>
+
+    </div>
+
+
+    <div class="project">
+
+        <div class="project-number">03 — Business Presentation</div>
+
+        <h3>The Future of AI at Work</h3>
+
+        <p>
+            An editorial-style business presentation exploring
+            how artificial intelligence is changing the modern
+            workplace, with a focus on information hierarchy
+            and visual communication.
+        </p>
+
+        <span class="project-label">
+            Self-initiated concept project
+        </span>
+
+    </div>
+
+</section>
+
+
+<section>
+
+    <h2>Skills</h2>
+
+    <div class="skills">
+
+        <div class="skill">Presentation Design</div>
+        <div class="skill">Visual Storytelling</div>
+        <div class="skill">PowerPoint</div>
+        <div class="skill">Canva</div>
+        <div class="skill">Layout Design</div>
+        <div class="skill">Information Design</div>
+        <div class="skill">Data Visualization</div>
+
+    </div>
+
+</section>
+
+
+<section>
+
+    <div class="contact">
+
+        <h2>Let's work together.</h2>
+
+        <p>
+            I'm currently looking for opportunities to grow as
+            a presentation designer and contribute to meaningful
+            visual communication projects.
+        </p>
+
+    </div>
+
+</section>
+
+
+<footer>
+    © 2026 Hellen · Presentation Designer
+</footer>
+
+</div>
+
+</body>
+</html>
